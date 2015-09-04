@@ -1,14 +1,14 @@
-Test files for external Moodle tests
+Test files for external Totara tests
 ====================================
 
-**It's really important to keep these files completely unmodified in order to obtain coherent test results in all supported moodle versions.**
+**It's really important to keep these files completely unmodified in order to obtain coherent test results in all supported Totara versions.**
 
 
 Installation:
 
 1. clone this repository or download to your local web sever without any line-endings conversion
-2. edit config.php to include: define('TEST_EXTERNAL_FILES_HTTP_URL', 'http://localhost/moodle-exttests');
-3. optionally configure SSL on your test server and define('TEST_EXTERNAL_FILES_HTTPS_URL', 'https://localhost/moodle-exttests');
+2. edit config.php to include: define('TEST_EXTERNAL_FILES_HTTP_URL', 'http://localhost/exttests');
+3. optionally configure SSL on your test server and define('TEST_EXTERNAL_FILES_HTTPS_URL', 'https://localhost/exttests');
 
 This folder contains several files that are used for unit testing
 Moodle download capabilities.
