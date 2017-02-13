@@ -9,13 +9,13 @@
     <title>Example tool</title>
     <description>Example tool description</description>
     <extensions platform="my.lms.com">
-        <lticm:property name="icon_url">http://download.moodle.org/unittest/test.jpg</lticm:property>
-        <lticm:property name="secure_icon_url">https://download.moodle.org/unittest/test.jpg</lticm:property>
+        <lticm:property name="icon_url">http://test.totaralms.com/exttests/test.jpg</lticm:property>
+        <lticm:property name="secure_icon_url">https://test.totaralms.com/exttests/test.jpg</lticm:property>
     </extensions>
     <launch_url>http://www.example.com/lti/provider.php</launch_url>
     <secure_launch_url>https://www.example.com/lti/provider.php</secure_launch_url>
-    <icon>http://download.moodle.org/unittest/test.jpg</icon>
-    <secure_icon>https://download.moodle.org/unittest/test.jpg</secure_icon>
+    <icon>http://test.totaralms.com/exttests/test.jpg</icon>
+    <secure_icon>https://test.totaralms.com/exttests/test.jpg</secure_icon>
     <vendor>
         <lticp:code>moodle.org</lticp:code>
         <lticp:name>Moodle</lticp:name>
