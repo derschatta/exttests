@@ -5,6 +5,13 @@ if (isset($_GET['done']) and $_GET['done'] == 1) {
     die;
 }
 
+// Redirect to totaralearning.com
+if (isset($_GET['extdest']) and $_GET['extdest'] == 1) {
+    header('HTTP/1.1 302 Found');
+    header("Location: https://www.totaralearning.com");
+    die;
+}
+
 // Redirect to full self URL.
 $testurl = 'http://'.$_SERVER['HTTP_HOST'].':'.$_SERVER['SERVER_PORT'].$_SERVER['SCRIPT_NAME'];
 
